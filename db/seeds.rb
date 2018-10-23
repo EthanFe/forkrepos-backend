@@ -1,2 +1,4 @@
 Hero.create(name: "Kirby", idle_image: "./app/images/kirby.png", moving_left_image: "./app/images/kirby.png", moving_right_image: "./app/images/kirby.png", hit_image: "./app/images/kirby_hit.png", death_image: "./app/images/kirby_death.png")
 Villain.create(name: "Eggplant", idle_image: "./app/images/ep.png", moving_left_image: "./app/images/ep.png", moving_right_image: "./app/images/ep.png", hit_image: "./app/images/ep_hit.png", death_image: "./app/images/ep_death.png")
+Villain.create(name: "Pom", idle_image: "./app/images/pom.png", moving_left_image: "./app/images/pom.png", moving_right_image: "./app/images/pom.png", hit_image: "./app/images/pom_hit.png", death_image: "./app/images/pom_death.png")
+Villain.create(name: "Appy", idle_image: "./app/images/appy.png", moving_left_image: "./app/images/appy.png", moving_right_image: "./app/images/appy.png", hit_image: "./app/images/appy_hit.png", death_image: "./app/images/appy_death.png")

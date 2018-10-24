@@ -7,6 +7,8 @@ class CreateVillains < ActiveRecord::Migration[5.2]
       t.string :moving_right_image
       t.string :hit_image
       t.string :death_image
+      t.integer :height
+      t.integer :width
       t.integer :health, default: 100
       t.integer :damage, default: 20
 

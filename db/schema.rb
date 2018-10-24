@@ -22,6 +22,8 @@ ActiveRecord::Schema.define(version: 2018_10_23_145644) do
     t.string "moving_right_image"
     t.string "hit_image"
     t.string "death_image"
+    t.integer "height"
+    t.integer "width"
     t.integer "health", default: 100
     t.integer "damage", default: 25
     t.datetime "created_at", null: false
@@ -35,6 +37,8 @@ ActiveRecord::Schema.define(version: 2018_10_23_145644) do
     t.string "moving_right_image"
     t.string "hit_image"
     t.string "death_image"
+    t.integer "height"
+    t.integer "width"
     t.integer "health", default: 100
     t.integer "damage", default: 20
     t.datetime "created_at", null: false

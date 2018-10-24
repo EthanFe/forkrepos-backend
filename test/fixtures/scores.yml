@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  kills: 1
+  cookies_fired: 1
+  cookies_hit: 1
+
+two:
+  user: two
+  kills: 1
+  cookies_fired: 1
+  cookies_hit: 1

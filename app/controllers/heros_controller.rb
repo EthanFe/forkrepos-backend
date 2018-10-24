@@ -18,6 +18,10 @@ class HerosController < ApplicationController
     
     def destroy
     end
+
+    def get_hero_and_villain_data
+        render json: {heroes: Hero.all, villains: Villain.all}
+    end
     
     private
     
